@@ -10,48 +10,51 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <style>
-      #section1{
-      height: 100%;
-      background: #D6EAF8;
-      display: inline-block;
-      width: 100%;
-      }
-      #section2{
-      height: 100%;
-      background: #D6EAF8;
-      display: inline-block;
-      width: 100%;
-      }
-      #section3{
-      height: 100%;
-      background: #D6EAF8;
-      display: inline-block;
-      width: 100%;
-      }
-    </style>
+    <link rel="stylesheet" href="styles/style.css">
+  
   </head>
   
 
   <body>
-      <div>
-        <nav>
-         <ul>
-            <li><a href="#section1">Home</a></li>
-            <li><a href="#section2">Appointments</a></li>
-            <li><a href="#section3">About Us</a></li>
-         </ul>
-        </nav>
-      </div>
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 
-      <div id="section1">
+          <a class="navbar-brand font-weight-bold" href="#Home">Gabrillo Dental Clinic</a>
+
+  
+            <ul class="navbar-nav mx-auto">
+
+              <div style="margin-left: 250px">
+                <li class="nav-item">
+                  <a class="nav-link" href="#Home">Home</a>
+                </li>
+              </div>
+
+              <div style="margin-left: 220px">
+                <li class="nav-item">
+                  <a class="nav-link" href="#Appointments">Appointments</a>
+                </li>
+              </div>
+
+              <div style="margin-left: 220px">
+                <li class="nav-item">
+                  <a class="nav-link" href="#AboutUs">About Us</a>
+                </li>
+              </div>
+            </ul>
+
+      </nav>
+    </div>
+
+      <div id="Home">
           <h1>Home</h1>
       </div>
-      <div id="section2">
+
+      <div id="Appointments">
           <h1>Appointments</h1>
       </div>
-      <div id="section3">
+
+      <div id="AboutUs">
           <h1>About us</h1>
       </div>
         

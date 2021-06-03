@@ -1,0 +1,34 @@
+html{
+    scroll-behavior: smooth;
+}
+
+#Home{
+    height: 100%;
+    background: #D6EAF8;
+    display: inline-block;
+    width: 100%;
+}
+#Appointments{
+    height: 100%;
+    background: #D6EAF8;
+    display: inline-block;
+    width: 100%;
+}
+#AboutUs{
+    height: 100%;
+    background: #D6EAF8;
+    display: inline-block;
+    width: 100%;
+}
+
+.navbar.transparent.navbar-inverse .navbar-inner {
+    background: rgba(0,0,0,0.4);
+}
+
+.clinic{
+    color: black;
+}
+
+/**
+list
+**/
