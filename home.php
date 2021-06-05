@@ -19,26 +19,28 @@
     <div>
       <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 
-          <a class="navbar-brand font-weight-bold" href="#Home">Gabrillo Dental Clinic</a>
+          <a class="navbar-brand font-weight-bold" href="home.php">
+          <img src="images/logo.png" alt="logo" href="home.php" style="width:40px;">Gabrillo Dental Clinic
+          </a>
 
   
             <ul class="navbar-nav mx-auto">
 
               <div style="margin-left: 250px">
                 <li class="nav-item">
-                  <a class="nav-link" href="#Home">Home</a>
+                  <a class="nav-link" href="home.php">Home</a>
                 </li>
               </div>
 
               <div style="margin-left: 220px">
                 <li class="nav-item">
-                  <a class="nav-link" href="#Appointments">Appointments</a>
+                  <a class="nav-link" href="appointments.php">Appointments</a>
                 </li>
               </div>
 
               <div style="margin-left: 220px">
                 <li class="nav-item">
-                  <a class="nav-link" href="#AboutUs">About Us</a>
+                  <a class="nav-link" href="aboutus.php">About Us</a>
                 </li>
               </div>
             </ul>
