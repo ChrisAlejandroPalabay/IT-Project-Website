@@ -2,6 +2,10 @@ html{
     scroll-behavior: smooth;
 }
 
+body { 
+    padding-top:59px; 
+}
+
 #Home{
     height: 100%;
     background: #D6EAF8;
