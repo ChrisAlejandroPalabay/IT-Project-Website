@@ -4,35 +4,42 @@ html{
 
 body { 
     padding-top:59px; 
+    background-color: white ;
 }
 
-#Home{
-    height: 100%;
-    background: #D6EAF8;
-    display: inline-block;
-    width: 100%;
-}
-#Appointments{
-    height: 100%;
-    background: #D6EAF8;
-    display: inline-block;
-    width: 100%;
-}
-#AboutUs{
-    height: 100%;
-    background: #D6EAF8;
-    display: inline-block;
-    width: 100%;
-}
+
 
 .navbar.transparent.navbar-inverse .navbar-inner {
     background: rgba(0,0,0,0.4);
 }
 
-.clinic{
-    color: black;
-}
 
 /**
-list
+Transition
 **/
+
+.transition-fade {
+    opacity: 1;
+    transition: 1000ms;
+    transform: translateX(0);
+    transform-origin: left ;
+}
+
+html.is-animating .transition-fade {
+    opacity: 1;
+    transform: translateX(100%);
+}
+
+html.is-leaving .transition-fade {
+    opacity: 0;
+    transform: translateX(0);
+}
+
+.transition-swipe {
+    transition: 500ms;
+    transform: translateY(0);
+}
+
+html.is-animating .transition-swipe {
+    transform: translateY(100%);
+}

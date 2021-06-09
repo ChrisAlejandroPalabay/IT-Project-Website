@@ -10,41 +10,44 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
+    <script defer src="node_modules/swup/dist/swup.min.js"></script>
+    <script defer src="script.js"></script>
+  
+
   </head>
 
   <body>
-  <div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-
-          <a class="navbar-brand font-weight-bold" href="home.php">
-          <img src="images/logo.png" alt="logo" href="home.php" style="width:40px;">Gabrillo Dental Clinic
-          </a>
-
-  
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <a class="navbar-brand font-weight-bold" href="/ITPROJECT-Website/home.php">
+            <img src="images/logo.png" alt="logo" href="/ITPROJECT-Website/home.php" style="width:40px;">Gabrillo Dental Clinic
+            </a>
             <ul class="navbar-nav mx-auto">
-
               <div style="margin-left: 250px">
                 <li class="nav-item">
-                  <a class="nav-link" href="home.php">Home</a>
+                  <a class="nav-link" href="/ITPROJECT-Website/home.php">Home</a>
                 </li>
               </div>
-
               <div style="margin-left: 220px">
                 <li class="nav-item">
-                  <a class="nav-link" href="appointments.php">Appointments</a>
+                  <a class="nav-link" href="/ITPROJECT-Website/appointments.php">Appointments</a>
                 </li>
               </div>
-
               <div style="margin-left: 220px">
                 <li class="nav-item">
-                  <a class="nav-link" href="aboutus.php">About Us</a>
+                  <a class="nav-link" href="/ITPROJECT-Website/aboutus.php">About Us</a>
                 </li>
               </div>
-            </ul>
+          </ul>
+        </nav>
+      </div>
+    <!-- Appoinments Content -->
 
-      </nav>
-    </div>
+    <main id="swup" class="transition-fade">
       <h1>Appointments</h1>
+      <img class="transition-swipe" src="images/Vector2.jpeg" alt="Image" width="500px">
+    </main>
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
