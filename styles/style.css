@@ -9,10 +9,6 @@ body {
 
 
 
-.navbar.transparent.navbar-inverse .navbar-inner {
-    background: rgba(0,0,0,0.4);
-}
-
 
 /**
 Transition
@@ -41,5 +37,18 @@ html.is-leaving .transition-fade {
 }
 
 html.is-animating .transition-swipe {
+    transform: translateY(100%);
+}
+
+/**
+Test
+**/
+.transition-try {
+    transition: 500ms;
+    transform-origin: right ;
+    transform: translateY(0);
+}
+
+html.is-animating .transition-try {
     transform: translateY(100%);
 }
