@@ -16,7 +16,7 @@
   </head>
 
   <body>
-    <div>
+      <div>
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <a class="navbar-brand font-weight-bold" href="/ITPROJECT-Website/home.php">
             <img src="images/logo.png" alt="logo" href="/ITPROJECT-Website/home.php" style="width:40px;">Gabrillo Dental Clinic
