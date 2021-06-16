@@ -3,49 +3,17 @@ html{
 }
 
 body { 
-    padding-top:59px; 
     background-color: white ;
 }
 
-/**
-Transition
-**/
-
-.transition-fade {
-    opacity: 1;
-    transition: 1000ms;
-    transform: translateX(0);
-    transform-origin: left ;
+#home{
+    height: 1000px;
 }
 
-html.is-animating .transition-fade {
-    opacity: 1;
-    transform: translateX(100%);
+#appointment{
+    height: 1000px;
 }
 
-html.is-leaving .transition-fade {
-    opacity: 0;
-    transform: translateX(0);
-}
-
-.transition-swipe {
-    transition: 500ms;
-    transform: translateY(0);
-}
-
-html.is-animating .transition-swipe {
-    transform: translateY(100%);
-}
-
-/**
-Test
-**/
-.transition-try {
-    transition: 500ms;
-    transform-origin: right ;
-    transform: translateY(0);
-}
-
-html.is-animating .transition-try {
-    transform: translateY(100%);
+#aboutus{
+    height: 1000px;
 }

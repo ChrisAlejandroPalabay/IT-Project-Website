@@ -13,7 +13,7 @@
         <style>
             .transition-fade {
                 opacity: 1;
-                transition: 1000ms;
+                transition: 500ms;
                 transform: translateX(0);
                 transform-origin: left ;
             }
