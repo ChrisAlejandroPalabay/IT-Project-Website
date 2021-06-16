@@ -1,4 +1,5 @@
 html{
+    padding-top: 57px;
     scroll-behavior: smooth;
 }
 
@@ -10,7 +11,7 @@ body {
     height: 1000px;
 }
 
-#appointment{
+#appointments{
     height: 1000px;
 }
 
