@@ -6,14 +6,35 @@ body {
     background-color: white ;
 }
 
+/*Navs*/
+
+.tab1{
+    padding-left: 400px;
+}
+.tab2{
+    padding-left: 110px;
+}
+.tab3{
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+
+/*main content*/
 #home{
-    height: 1000px;
+    padding-top: 57px;
+    height: 1700px;
+    background-color: #DAF7A6;
 }
 
 #appointments{
+    padding-top: 57px;
     height: 1000px;
+    background-color: #FFC300;
 }
 
 #aboutus{
+    padding-top: 57px;
     height: 1000px;
+    background-color: #FF5733;
 }
