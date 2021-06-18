@@ -12,40 +12,36 @@
   </head>
   <body>
   <!-- Nav Bar -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
-  <a class="navbar-brand" href="#home"><img src="images/logo.png" alt="logo" width="30px">
-  <b>Gabrillo Dental Clinic</b>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+  <a class="navbar-brand" href="#home"><img src="images/logo.png" alt="logo" width="45px">
+  <b>GABRILLO DENTAL CLINIC</b>
   </a>
   <div class="collapse navbar-collapse">
     <ul class="navbar-nav">
-      <div class="tab1">
-        <li class="nav-item">
-          <a class="nav-link" href="#home">Home</a>
+      
+        <li>
+          <a class="color-me" href="#home"><b>HOME</b></a>
         </li>
-      </div>
-      <div class="tab2">
-        <li class="nav-item">
-          <a class="nav-link" href="#appointments">Appointments</a>
+    
+        <li>
+          <a class="color-me" href="#appointments"><b>APPOINTMENTS</b></a>
         </li>
-      </div>
-      <div class="tab3">
-        <li class="nav-item">
-          <a class="nav-link" href="#aboutus">About Us</a>
+        
+        <li>
+          <a class="color-me" href="#aboutus"><b>ABOUT US</b></a>
         </li>
-      </div>
+      
     </ul>
   </div>
 </nav>
 
 <!-- Home Content -->
 <div id="home">
-<h1>home</h1>
-<img src="images/vec1.png" alt="vec1" width="500">
+<img class="vector1" src="images/Vector1.png" alt="vec1" width="500">
 </div>
 <div id="appointments">
 <!-- Appointments Content -->
-<h1>Appointments</h1>
-<img src="images/Vector2.jpeg" alt="vec2" width="500">
+<img class="vector2" src="images/Vector2.png" alt="vec2" width="325" height="375">
 </div>
 <!-- AboutUsS Content -->
 <div id="aboutus">

@@ -6,35 +6,52 @@ body {
     background-color: white ;
 }
 
+
 /*Navs*/
 
-.tab1{
-    padding-left: 400px;
+.navbar-nav > li{
+    padding-left:120px;
+    padding-right:85px;
 }
-.tab2{
-    padding-left: 110px;
-}
-.tab3{
-    padding-left: 110px;
-    padding-right: 110px;
+
+.color-me{
+    color: #7764CA;
 }
 
 
 /*main content*/
 #home{
-    padding-top: 57px;
-    height: 1700px;
-    background-color: #DAF7A6;
+    padding-top: 73px;
+    height: 630px;
 }
 
 #appointments{
-    padding-top: 57px;
-    height: 1000px;
-    background-color: #FFC300;
+    padding-top: 73px;
+    height: 630px;
 }
 
 #aboutus{
-    padding-top: 57px;
-    height: 1000px;
-    background-color: #FF5733;
+    padding-top: 73px;
+    height: 630px;
+}
+
+/*Vectors*/
+
+.svg{
+    width: 600px;
+}
+.vector1{
+    margin-top: 70px;
+    margin-left: 50px;
+}
+.vector2{
+    margin-top: 130px;
+    margin-left: 70px;
+}
+
+
+/*SVG Background*/
+.c1{
+    margin-top: 40px;
+    margin-bottom: 500px;
 }
