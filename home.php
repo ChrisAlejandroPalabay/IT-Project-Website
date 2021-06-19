@@ -35,11 +35,13 @@
   </div>
 </nav>
 <!--SGV Background --->
+
 <svg class="svg1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1019.5 924.73"><defs><style>.cls-1{opacity:0.15;}.cls-2{fill:#9f91da;}</style></defs><title>BIgC</title><g id="Layer_2" data-name="Layer 2"><g id="BIgg"><g class="cls-1"><path class="cls-2" d="M118.56,0,1019.5,1.12V714.49C914.06,842.85,754.09,924.73,575,924.73c-317.56,0-575-257.44-575-575A572.46,572.46,0,0,1,118.56,0Z"/></g></g></g></svg>
+<svg class="svg2 "  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 425 286"><defs><style>.cls-1{fill:#9f91da;opacity:0.15;}</style></defs><title>TopC</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_2-2" data-name="Layer 2"><path class="cls-1" d="M425,0V250.36A285.22,285.22,0,0,1,286.5,286C128.44,286,.27,158,0,0Z"/></g></g></svg>
+<svg class="svg3"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 353 573"><defs><style>.cls-1{fill:#9f91da;opacity:0.15;}</style></defs><title>bottomR</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_2-2" data-name="Layer 2"><path class="cls-1" d="M353,7.77V565.23A286.89,286.89,0,0,1,286.5,573C162.32,573,56.59,494,16.85,383.5A285.69,285.69,0,0,1,0,286.5C0,128.27,128.27,0,286.5,0A286.89,286.89,0,0,1,353,7.77Z"/></g></g></svg>
 
-<svg class="svg2" width="350px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 425 286"><defs><style>.cls-1{fill:#9f91da;opacity:0.15;}</style></defs><title>TopC</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_2-2" data-name="Layer 2"><path class="cls-1" d="M425,0V250.36A285.22,285.22,0,0,1,286.5,286C128.44,286,.27,158,0,0Z"/></g></g></svg>
 
-<svg class="svg3" width="220px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 353 573"><defs><style>.cls-1{fill:#9f91da;opacity:0.15;}</style></defs><title>bottomR</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_2-2" data-name="Layer 2"><path class="cls-1" d="M353,7.77V565.23A286.89,286.89,0,0,1,286.5,573C162.32,573,56.59,494,16.85,383.5A285.69,285.69,0,0,1,0,286.5C0,128.27,128.27,0,286.5,0A286.89,286.89,0,0,1,353,7.77Z"/></g></g></svg>
+
 
 <!-- Home Content -->
 <div id="home">
