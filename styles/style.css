@@ -17,41 +17,66 @@ body {
 .color-me{
     color: #7764CA;
 }
+.color-me-blue{
+    color: blue;
+}
 
 
 /*main content*/
 #home{
     padding-top: 73px;
-    height: 630px;
+    height: 740px;
 }
 
 #appointments{
     padding-top: 73px;
-    height: 630px;
+    height: 740px;
 }
 
 #aboutus{
     padding-top: 73px;
-    height: 630px;
+    height: 740px;
 }
 
 /*SVGs*/
 
 .svg1{
+    margin-left: 520px;
     position: absolute;
     right: 0%;
 }
 
 .svg2{
+    margin-left: 80%;
     position: absolute;
     right: 0%;
 }
 
 .svg3{
+    margin-left: 70%;
     top: 440px;
     position: absolute;
     right: 0%;
 }
+.svg4{
+    position: absolute;
+    left: 0;
+    margin-right:79% ;
+    margin-top: 49%;
+}
+.svg5{
+
+}
+.svg6{
+
+}
+.svg7{
+
+}
+.svg8{
+
+}
+
 
 /*Vectors*/
 .vector1{
@@ -59,13 +84,16 @@ body {
     margin-left: 50px;
 }
 .vector2{
+    top: 0;
     margin-top: 130px;
-    margin-left: 70px;
+    margin-left: 190px;
+    
 }
 
 
-/*SVG Background*/
-.svg1{
-    margin-left: 600px;
-    position: absolute;
+/*Home content*/
+.text-primary{
+    margin-left: 5%;
+    margin-top: 20%;
+    font-weight: 800;
 }
