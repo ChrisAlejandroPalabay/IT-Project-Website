@@ -150,7 +150,7 @@
       <div id="aboutus">
          <div class="row">
             <div class="col-lg-4 d-flex justify-content-center">
-               <div class="card bg-warning" style="width: 18rem;">
+               <div class="card" style="width: 18rem;">
                   <img class="card-img-top" src="images/Vector1.png" alt="Card image cap">
                   <div class="card-body">
                      <h5 class="card-title">VISION</h5>
@@ -160,7 +160,7 @@
                </div>
             </div>
             <div class="col-lg-4 d-flex justify-content-center">
-               <div class="card bg-info" style="width: 18rem;">
+               <div class="card" style="width: 18rem;">
                   <img class="card-img-top" src="images/Vector1.png" alt="Card image cap">
                   <div class="card-body">
                      <h5 class="card-title">MISSION</h5>
@@ -170,7 +170,7 @@
                </div>
             </div>
             <div class="col-lg-4 d-flex justify-content-center">
-               <div class="card bg-light" style="width: 18rem;">
+               <div class="card" style="width: 18rem;">
                   <img class="card-img-top" src="images/Vector1.png" alt="Card image cap">
                   <div class="card-body">
                      <h5 class="card-title">REVOLUTION</h5>
