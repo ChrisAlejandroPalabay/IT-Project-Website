@@ -5,6 +5,10 @@ html{
 body { 
     background-color: white ;
 }
+.row{
+    padding-left: 0;
+    padding-right: 0;
+}
 
 /*Color: 9F91DA*/
 /*Navs*/
@@ -25,7 +29,7 @@ body {
 /*main content*/
 #home{
     padding-top: 73px;
-    height: 740px;
+    height: 720px;
 }
 
 #appointments{
@@ -38,46 +42,6 @@ body {
     height: 740px;
 }
 
-/*SVGs*/
-
-.svg1{
-    margin-left: 520px;
-    position: absolute;
-    right: 0%;
-}
-
-.svg2{
-    margin-left: 80%;
-    position: absolute;
-    right: 0%;
-}
-
-.svg3{
-    margin-left: 70%;
-    top: 440px;
-    position: absolute;
-    right: 0%;
-}
-.svg4{
-    position: absolute;
-    left: 0;
-    margin-right:79% ;
-    margin-top: 49%;
-}
-.svg5{
-
-}
-.svg6{
-
-}
-.svg7{
-
-}
-.svg8{
-
-}
-
-
 /*Vectors*/
 .vector1{
     margin-top: 70px;
@@ -85,15 +49,23 @@ body {
 }
 .vector2{
     top: 0;
-    margin-top: 130px;
+    margin-top: 90px;
     margin-left: 190px;
-    
 }
 
 
 /*Home content*/
-.text-primary{
+.texthome{
     margin-left: 5%;
     margin-top: 20%;
     font-weight: 800;
+}
+
+/*Apointment content*/
+.textappointment{
+    margin-top: 38%;
+    font-weight: 800;
+}
+.btn{
+    margin-left: 65%;
 }
