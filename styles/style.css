@@ -71,7 +71,6 @@ body {
 }
 
 /*SVGs FOR CODE PEN ONLY CAN BE DELETED*/
-
 .svg1{
     margin-left: 40%;
     position: absolute;
@@ -106,4 +105,17 @@ body {
     position: absolute;
     margin-right: 90%;
     margin-top: 100%;
+}
+
+/*JavaScript reveal*/
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
 }

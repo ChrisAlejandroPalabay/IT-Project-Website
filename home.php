@@ -120,21 +120,25 @@
          </g>
       </svg>
       <!-- END OF SVG-->
+
       <!-- Home Content -->
-      <div id="home">
-         <div class="row">
-            <div class="col-lg-5">
-               <img class="vector1"src="images/Vector1.png" alt="Vec1" width="500px">
-            </div>
-            <div class="col-lg">
-               <h2 class="text-primary texthome">WELCOME TO GABRILLO DENTAL CLINIC</h2>
-               <p>Assign responsive-friendly margin or padding values to an element or a subset of its sides with shorthand classes. Includes support for individual properties, all properties, and vertical and horizontal properties. Classes are built from a default Sass map ranging from .25rem to 3rem.</p>
-               <button type="button" class="btn btn-outline-primary">Puntang Langit</button>
+      <div class="container reveal">
+         <div id="home">
+            <div class="row">
+               <div class="col-lg-5">
+                  <img class="vector1"src="images/Vector1.png" alt="Vec1"  width="500px">
+               </div>
+               <div class="col-lg">
+                  <h2 class="text-primary texthome">WELCOME TO GABRILLO DENTAL CLINIC</h2>
+                  <p>Assign responsive-friendly margin or padding values to an element or a subset of its sides with shorthand classes. Includes support for individual properties, all properties, and vertical and horizontal properties. Classes are built from a default Sass map ranging from .25rem to 3rem.</p>
+                  <button type="button" class="btn btn-outline-primary">Puntang Langit</button>
+               </div>
             </div>
          </div>
       </div>
 
       <!-- Appointments Content -->
+      <div class="container reveal">
       <div id="appointments">
          <div class="row">
             <div class="col-lg-7">
@@ -147,8 +151,11 @@
             </div>
          </div>
       </div>
+      </div>
+      
 
       <!-- AboutUsS Content -->
+      <div class="container reveal">
       <div id="aboutus">
          <div class="row">
             <div class="col-lg-4 d-flex justify-content-center">
@@ -183,6 +190,31 @@
             </div>
          </div>
       </div>
+      </div>
+      
+
+      <script type="text/javascript">
+      window.addEventListener('scroll', reveal);
+
+      function reveal(){
+         var reveals = document.querySelectorAll('.reveal');
+
+         for(var i = 0; i < reveals.length; i++){
+
+            var windowheight = window.innerHeight;
+            var revealtop = reveals[i].getBoundingClientRect().top;
+            var revealpoint = 150;
+
+            if(revealtop < windowheight - revealpoint){
+               reveals[i].classList.add('active');
+            }else{
+               reveals[i].classList.remove('active');
+            }
+         }
+      }
+      </script>
+
+
       <!-- Optional JavaScript -->
       <!-- jQuery first, then Popper.js, then Bootstrap JS -->
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
