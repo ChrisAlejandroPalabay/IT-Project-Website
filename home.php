@@ -133,8 +133,9 @@
             </div>
          </div>
       </div>
+
+      <!-- Appointments Content -->
       <div id="appointments">
-         <!-- Appointments Content -->
          <div class="row">
             <div class="col-lg-7">
                <img class="vector2" src="images/Vector2.png" alt="vec2" width="300px">
@@ -146,6 +147,7 @@
             </div>
          </div>
       </div>
+
       <!-- AboutUsS Content -->
       <div id="aboutus">
          <div class="row">
