@@ -16,25 +16,26 @@
    <body>
       <!-- Nav Bar -->
       <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-         <a class="navbar-brand" href="#home"><img src="images/logo.png" alt="logo" width="45px">
-         <b>GABRILLO DENTAL CLINIC</b>
+         <a class="navbar-brand" href="#home"><img src="images/logo.png" alt="logo" width="45px" data-aos="fade-down" data-aos-delay="900" data-aos-duration="1000">
+         <b data-aos="fade-down" data-aos-delay="1500" data-aos-duration="1000">GABRILLO DENTAL CLINIC</b>
          </a>
          <div class="collapse navbar-collapse">
             <ul class="navbar-nav">
                <li>
-                  <a class="color-me" href="#home"><b>HOME</b></a>
+                  <a class="color-me" href="#home" data-aos="fade-up" data-aos-delay="990" data-aos-duration="1000"><b>HOME</b></a>
                </li>
                <li>
-                  <a class="color-me" href="#appointments"><b>APPOINTMENTS</b></a>
+                  <a class="color-me" href="#appointments" data-aos="fade-down" data-aos-delay="1200" data-aos-duration="1000"><b>APPOINTMENTS</b></a>
                </li>
                <li>
-                  <a class="color-me" href="#aboutus"><b>ABOUT US</b></a>
+                  <a class="color-me" href="#aboutus" data-aos="fade-up-right" data-aos-delay="1400" data-aos-duration="1000"><b>ABOUT US</b></a>
                </li>
             </ul>
          </div>
       </nav>
       <!--SGV Background --->
-      <svg class="svg1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1019.5 924.73" d>
+   
+      <svg data-aos="fade-down" data-aos-delay="2300" data-aos-duration="1000" class="svg1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1019.5 924.73" d>
          <defs>
             <style>.cls-1{opacity:0.15;}.cls-2{fill:#9f91da;}</style>
          </defs>
@@ -47,7 +48,8 @@
             </g>
          </g>
       </svg>
-      <svg class="svg2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 425 286">
+      
+      <svg data-aos="fade-in" data-aos-delay="1500" data-aos-duration="1500" class="svg2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 425 286">
          <defs>
             <style>.cls-1{fill:#9f91da;opacity:0.15;}</style>
          </defs>
@@ -58,7 +60,7 @@
             </g>
          </g>
       </svg>
-      <svg class="svg3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352.5 422">
+      <svg data-aos="fade-in" data-aos-delay="1700" data-aos-duration="2000" class="svg3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352.5 422">
          <defs>
             <style>.cls-1{fill:#9f91da;opacity:0.15;}</style>
          </defs>
@@ -69,7 +71,7 @@
             </g>
          </g>
       </svg>
-      <svg class="svg4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 909 1566">
+      <svg data-aos="fade-in" data-aos-delay="1900" data-aos-duration="2500" class="svg4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 909 1566">
          <defs>
             <style>.cls-1{fill:#9f91da;opacity:0.15;}</style>
          </defs>
@@ -83,7 +85,7 @@
             </g>
          </g>
       </svg>
-      <svg class="svg5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 266 634">
+      <svg data-aos="fade-down" data-aos-delay="2300" data-aos-duration="1000" class="svg5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 266 634">
          <defs>
             <style>.cls-1{fill:#9f91da;opacity:0.15;}</style>
          </defs>
@@ -96,7 +98,7 @@
             </g>
          </g>
       </svg>
-      <svg class="svg6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350.5 266">
+      <svg  data-aos="fade-in" data-aos-delay="1500" data-aos-duration="1500" class="svg6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350.5 266">
          <defs>
             <style>.cls-1{fill:#9f91da;opacity:0.15;}</style>
          </defs>
@@ -108,7 +110,7 @@
             </g>
          </g>
       </svg>
-      <svg class="svg7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 438.5 720">
+      <svg data-aos="fade-in" data-aos-delay="1700" data-aos-duration="2000" class="svg7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 438.5 720">
          <defs>
             <style>.cls-1{fill:#9f91da;opacity:0.15;}</style>
          </defs>
@@ -126,13 +128,15 @@
       <!-- Home Content -->
          <div id="home">
             <div class="row">
-               <div class="col-lg-5" data-aos="fade-up-right" data-aos-delay="1000" data-aos-duration="1000">
+               <div class="col-lg-5" data-aos="fade-up-right" data-aos-delay="1500" data-aos-duration="1000">
                   <img class="vector1"src="images/Vector1.png" alt="Vec1"  width="500px">
                </div>
-               <div class="col-lg" data-aos="fade-down-left" >
-                  <h2 class="text-primary texthome">WELCOME TO GABRILLO DENTAL CLINIC</h2>
+               <div class="col-lg">
+                  <h2 class="text-primary texthome" data-aos="fade-down" data-aos-delay="900" data-aos-duration="1000" >WELCOME TO GABRILLO DENTAL CLINIC</h2>
+                  <div data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">
                   <p>Assign responsive-friendly margin or padding values to an element or a subset of its sides with shorthand classes. Includes support for individual properties, all properties, and vertical and horizontal properties. Classes are built from a default Sass map ranging from .25rem to 3rem.</p>
                   <button type="button" class="btn btn-outline-primary">Puntang Langit</button>
+                  </div>
                </div>
             </div>
          </div>
@@ -187,7 +191,6 @@
             </div>
          </div>
       </div>
-      
 
       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
       <script>
