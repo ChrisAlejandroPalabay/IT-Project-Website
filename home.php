@@ -7,6 +7,8 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <!-- css -->
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
       <link rel="stylesheet" href="styles/style.css">
       <link rel="stylesheet" href="styles/svg.css">
       <script src="svg-inject.min.js"></script>
@@ -32,12 +34,12 @@
          </div>
       </nav>
       <!--SGV Background --->
-      <svg class="svg1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1019.5 924.73">
+      <svg class="svg1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1019.5 924.73" d>
          <defs>
             <style>.cls-1{opacity:0.15;}.cls-2{fill:#9f91da;}</style>
          </defs>
          <title>BIgC</title>
-         <g id="Layer_2" data-name="Layer 2">
+         <g id="Layer_2" data-name="Layer 2" >
             <g id="BIgg">
                <g class="cls-1">
                   <path class="cls-2" d="M118.56,0,1019.5,1.12V714.49C914.06,842.85,754.09,924.73,575,924.73c-317.56,0-575-257.44-575-575A572.46,572.46,0,0,1,118.56,0Z"/>
@@ -122,43 +124,38 @@
       <!-- END OF SVG-->
 
       <!-- Home Content -->
-      <div class="container reveal">
          <div id="home">
             <div class="row">
-               <div class="col-lg-5">
+               <div class="col-lg-5" data-aos="fade-up-right" data-aos-delay="1000" data-aos-duration="1000">
                   <img class="vector1"src="images/Vector1.png" alt="Vec1"  width="500px">
                </div>
-               <div class="col-lg">
+               <div class="col-lg" data-aos="fade-down-left" >
                   <h2 class="text-primary texthome">WELCOME TO GABRILLO DENTAL CLINIC</h2>
                   <p>Assign responsive-friendly margin or padding values to an element or a subset of its sides with shorthand classes. Includes support for individual properties, all properties, and vertical and horizontal properties. Classes are built from a default Sass map ranging from .25rem to 3rem.</p>
                   <button type="button" class="btn btn-outline-primary">Puntang Langit</button>
                </div>
             </div>
          </div>
-      </div>
 
       <!-- Appointments Content -->
-      <div class="container reveal">
       <div id="appointments">
          <div class="row">
-            <div class="col-lg-7">
+            <div class="col-lg-7" data-aos="fade-up-right" data-aos-delay="300">
                <img class="vector2" src="images/Vector2.png" alt="vec2" width="300px">
             </div>
-            <div class="col-lg">
+            <div class="col-lg" data-aos="fade-down-left">
                <h2 class="text-primary textappointment">APPOINTMENTS</h2>
                <p>Assign responsive-friendly margin or padding values to an element or a subset of its sides with shorthand classes. Includes support for individual properties, all properties, and vertical and horizontal properties. Classes are built from a default Sass map ranging from .25rem to 3rem.</p>
                <button type="button" class="btn btn-outline-primary">SET APPOINTMENT</button>
             </div>
          </div>
       </div>
-      </div>
       
 
       <!-- AboutUsS Content -->
-      <div class="container reveal">
       <div id="aboutus">
          <div class="row">
-            <div class="col-lg-4 d-flex justify-content-center">
+            <div class="col-lg-4 d-flex justify-content-center" data-aos="fade-left">
                <div class="card" style="width: 18rem;">
                   <img class="card-img-top" src="images/Vector1.png" alt="Card image cap">
                   <div class="card-body">
@@ -168,7 +165,7 @@
                   </div>
                </div>
             </div>
-            <div class="col-lg-4 d-flex justify-content-center">
+            <div class="col-lg-4 d-flex justify-content-center" data-aos="fade-right">
                <div class="card" style="width: 18rem;">
                   <img class="card-img-top" src="images/Vector1.png" alt="Card image cap">
                   <div class="card-body">
@@ -178,7 +175,7 @@
                   </div>
                </div>
             </div>
-            <div class="col-lg-4 d-flex justify-content-center">
+            <div class="col-lg-4 d-flex justify-content-center" data-aos="fade-up">
                <div class="card" style="width: 18rem;">
                   <img class="card-img-top" src="images/Vector1.png" alt="Card image cap">
                   <div class="card-body">
@@ -190,31 +187,14 @@
             </div>
          </div>
       </div>
-      </div>
       
 
-      <script type="text/javascript">
-      window.addEventListener('scroll', reveal);
-
-      function reveal(){
-         var reveals = document.querySelectorAll('.reveal');
-
-         for(var i = 0; i < reveals.length; i++){
-
-            var windowheight = window.innerHeight;
-            var revealtop = reveals[i].getBoundingClientRect().top;
-            var revealpoint = 150;
-
-            if(revealtop < windowheight - revealpoint){
-               reveals[i].classList.add('active');
-            }else{
-               reveals[i].classList.remove('active');
-            }
-         }
-      }
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+         AOS.init({
+            offset: 400
+         });
       </script>
-
-
       <!-- Optional JavaScript -->
       <!-- jQuery first, then Popper.js, then Bootstrap JS -->
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
